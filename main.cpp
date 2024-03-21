@@ -45,9 +45,9 @@ void scheduling_algorithm(vector<Process> &prs){
 }
 int main(){
 	Process::algorithm = "FCFS";
-	Process p1 = Process(1,0,9);
-	Process p2 = Process(2,4,4);
-	Process p3 = Process(3,2,9);
+	Process p1 = Process(1,0,4);
+	Process p2 = Process(2,4,8);
+	Process p3 = Process(3,2,6);
 	Process p4 = Process(4,1,9);
 	vector<Process> prs{p1,p2,p3,p4};
 
